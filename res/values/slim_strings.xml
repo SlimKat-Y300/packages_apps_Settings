@@ -1090,6 +1090,13 @@ two in order to insert additional control points. \'Remove\' deletes the selecte
     <!-- Minimum Vibration Duration -->
     <string name="minimum_vibration_duration">Minimum vibration duration</string>
 
+    <!-- Vold Switchable Pair -->
+    <string name="storage_switch_title">Use external SD as primary</string>
+    <string name="storage_switch_summary_off">Using expanded internal storage for apps and media</string>
+    <string name="storage_switch_summary_on">Using SD Card for apps and media</string>
+    <string name="reboot_prompt_title">Reboot required</string>
+    <string name="reboot_prompt_message">In order to apply the changed configuration, a reboot is required.\n\nDo you want to reboot now?</string>
+
     <!-- ListView animation -->
     <string name="interface_settings_animation_title">Animation options</string>
     <string name="listview_animation_title">ListView animation</string>
