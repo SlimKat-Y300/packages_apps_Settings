@@ -298,8 +298,7 @@ public class Lockscreen extends RestrictedSettingsFragment
         // and remove them on low memory devices
         mEnableKeyguardWidgets = root.findPreference(KEY_ENABLE_WIDGETS);
         if (mEnableKeyguardWidgets != null) {
-            if (ActivityManager.isLowRamDeviceStatic()
-                    || mLockPatternUtils.isLockScreenDisabled()) {
+            if (mLockPatternUtils.isLockScreenDisabled()) {
                 // Widgets take a lot of RAM, so disable them on low-memory devices
                 root.removePreference(root.findPreference(KEY_ENABLE_WIDGETS));
                 mEnableKeyguardWidgets = null;
